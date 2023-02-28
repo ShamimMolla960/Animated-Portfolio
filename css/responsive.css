@@ -1,0 +1,364 @@
+@media (max-width:575.98px) {
+    
+    .navbar-brand {
+        margin-right:0 !important;
+        
+      }
+    
+}
+@media (max-width:767.98px) {
+    /* Navbar Start */
+    #navbar {
+      position: fixed;
+      background-color: #2b2d33;
+      z-index: 9999;
+      width: 100%;
+    }
+      .navbar-brand img {
+        max-width:180px; 
+      }
+      /* Navbar End */
+
+      /* Bannar Part Start */
+      .bannar_text p {
+        width: 284px;
+        margin: 0 auto;
+      }
+    .animation_close_btn{
+        width: 30px;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap:6px;
+        background-color: transparent;
+        padding: 3px;
+        border: none;
+    }
+    .animation_close_btn:focus{
+        background-color: transparent;
+        box-shadow: none;
+        border: none;
+        outline: 0;
+    }
+    .animation_close_btn span{
+        width:100%;
+        background-color: #fff;
+        border-radius: 2px;
+        height: 2px;
+       
+    }
+    .animation_close_btn span:nth-child(2){
+        width:100%;
+        background-color: #fff;
+        border-radius: 2px;
+        height: 2px;
+       
+    }
+    .animation_close_btn span:nth-child(3){
+        width:100%;
+        background-color: #fff;
+        border-radius: 2px;
+        height: 2px; 
+    }
+    #bannar{
+        padding-top:115px;
+    }
+    #bannar .row{
+        flex-direction: column-reverse;
+    }
+    .man_image {
+        width: 229px;
+        height: 277px;
+    }
+    .man_image .ai {
+        display: none;
+    }
+    .man_image .ps {
+        display: none;
+    }
+    .man_image .others {
+       display: none;
+    }
+    .bannar_text{
+        text-align: center;
+    }
+    .bannar_text h3 {
+        font-size: 21px;  
+    }
+    .bannar_text h1 {
+        font-size:42px; 
+    }
+    .bannar_text p {
+        width: 284px;
+    }
+    .mouse {
+        padding-top: 23px;
+        padding-bottom: 15px;
+     }
+     .mouse a svg {
+        width: 20px;
+        height: 27px;
+    }
+    .bannar_btn span a {
+        font-size: 16px;
+    }
+    #icon {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    .icon-2 {
+        padding-top: 50px;
+        
+    }
+    .icon-3 {
+        padding-top: 50px;
+        
+    }
+    .bannar_text .bannar_btn {
+        justify-content: space-around;
+      }
+    /* Bannar Part Start */
+
+    /* portfolio Start */
+    .port_menu ul {
+        gap: 25px;
+        flex-wrap: wrap;
+   }
+   .portfolio_gellary {
+    column-count: 1;
+  }
+  #portfolio {
+    padding-top: 50px;
+  }
+  #portfolio .port_top {
+    display:none;
+  }
+  #portfolio .port_bottom {
+    display :none;
+  }
+  ol, ul {
+    padding-left:0 !important
+  }
+  /* portfolio End*/
+
+  /* Service Start */
+  .service_item .icon {
+    display: none;
+  }
+  /* Service End */
+  .contact_form input {
+    margin-left: 0;
+  }
+
+  /* Contact Start */
+  .contact_form textarea {
+    margin-left: 0;
+  }
+  /* Contact End */
+
+  /* Brand Start */
+  .brand_main .brand_item {
+    padding: 64px;
+    border-bottom: 1px #555 solid;
+    border-right: 1px #555 solid;
+  }
+  .brand_main .brand_item.bb-none {
+    border-bottom: 1px #555 solid;
+  }
+  /* Brand End */
+
+  /* About Part Start */
+  .about_top {
+    display: none;
+  }
+  .about_image .counter_item {
+    max-width:100%;
+  }
+  .counter_succes {
+    position:static;
+    margin: 20px 0;
+  }
+  .counter_project {
+    position:static;
+  }
+  .counter_item .text {
+    padding-bottom: 15px;
+  }
+  .about_image .counter_item .count {
+    flex-direction: column;
+  }
+  .about_bottom {
+    display: none;
+  }
+  .about_text {
+    padding-left:0;
+    text-align: center;
+  }
+  .about_text h3 {
+    font-size: 40px;
+    color: var(--white);
+    font-weight: 500;
+    font-family: var(--jost);
+    line-height: 1.25;
+    padding-right:0px;
+    padding-bottom: 43px;
+  }
+  .about_btn {
+    justify-content: center;
+  }
+  #about {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+  }
+  /* About Part End */
+
+  /* Skil Part Start */
+  .skil_heading {
+    padding-top:0;
+    text-align: center;
+  }
+  .skil_heading h3 {
+    font-size: 36px;
+    padding-right:0;
+  }
+  .skil_heading p {
+    padding-right:0;
+  }
+  .skil_image {
+    padding-left:0;
+  }
+  #skill {
+    padding-top: 100px;
+  }
+  #service .top_image {
+    display: none;
+  }
+  #service {
+    padding-top: 100px;
+  }
+  #service .top_left {
+    display: none;
+  }
+  /* Skil Part End */
+
+  /* Slider Part Start */
+  #testimonials .right_sarcale {
+    display: none;
+  }
+  #testimonials .right_image {
+    display: none;
+  }
+  #testimonials .right_image-2 img {
+    display: none;
+  }
+  #testimonials .right_retangle {
+    display: none;
+  }
+  #testimonials .right_sarcale-2 {
+    display: none;
+  }
+  #testimonials .right_image-3 img {
+    display: none;
+  }
+  #testimonials .left_image img {
+    display: none;
+  }
+  #testimonials .left_retangle {
+    display: none;
+  }
+  #testimonials .left_sarcale {
+    display: none;
+  }
+  #testimonials .left_image-3 img {
+    display: none;
+  }
+  #testimonials .left_sarcale-2 {
+    display: none;
+  }
+  #testimonials .left_image-2 img {
+    display: none;
+  }
+  #testimonials .left_image-4 img {
+    display: none;
+  }
+  .testimonials_heading h3 {
+    font-size: 31px;
+  }
+  .testimonial_item .icon svg{
+    width: 50px;
+    height: 50px;
+  }
+  #brand .brand_top {
+    display: none;
+  }
+  .brand_main .brand_item {
+    padding:76px;
+  }
+  #brand {
+    padding-top: 100px;
+  }
+  /* Slider Part End */
+
+  /* Service Part Start */
+  .service_item a {
+    padding: 26px;
+  }
+  /* Service Part End */
+
+  /*Blog Part Start */
+  #blog .right {
+    display: none;
+  }
+  #blog .left {
+    display: none;
+  }
+  #blog {
+    padding-top: 100px;
+  }
+  .blog_item .blog_text span {
+    margin-top: 19px;
+  }
+  /*Blog Part End */
+
+  /*Newslater Part Start */
+  #newsletter {
+    padding-top: 100px;
+  }
+  .newsletter .overlay .news_box form input[type="submit"] {
+    padding: 0px;
+    width: 40%;
+  }
+  .newsletter .overlay {
+    padding: 33px;
+  }
+  .newsletter .overlay .news_box form input[type="email"] {
+    width: 63%;
+  }
+  /*Newslater Part End */
+
+  /*Contact Part Start */
+  #contact .contact_top {
+    display:none;
+  }
+  .contact_form input {
+    width: 100%;
+  }
+  #contact {
+    padding-top: 100px;
+  }
+  #map {
+    padding: 100px 0;
+  }
+  /*Contact Part End */
+
+  #copyright {
+    padding: 9px;
+  }
+  .copy_right ul {
+    display:block;
+  }
+
+}
